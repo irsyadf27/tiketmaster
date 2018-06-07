@@ -1,0 +1,619 @@
+/* Color Pallete
+red/pink : #B23850
+blue : #3B8BEB
+cream : #E7E2D4
+light blue : #C4DBF6
+dark blue : #8590AA
+orange : #e16738;
+ */
+
+ /* Pagination */
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #B23850;
+  border-color: #B23850;
+ }
+
+ .pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #B23850;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #B23850;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+/*=== 1. Index HTML ===*/
+.table thead.th2>tr>th {
+    background-color: #a8344b;
+}
+
+body {
+  background-color: #C4DBF6;
+  font-family: 'Roboto', sans-serif;
+}
+
+.minimum {
+  min-height: 640px;
+}
+
+/*=== 1. Index HTML ===*/
+
+/* Navbar */
+
+.navbar-brand {
+  margin-top: -10px;
+}
+
+.navbar-hedaer {
+  background-color: red;
+}
+
+.navbar li {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: #efefef;
+  vertical-align: middle;
+  background-size: 50% auto;
+}
+
+.container-fluid {
+  padding: 0 30px 0 30px;
+}
+
+li>button {
+  margin-top: 8px;
+}
+
+ul.nav>li.active.active2 {
+  border: 0px;
+}
+
+ul.nav>li.active.active2>a {
+  padding-left: 15px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  li>button {
+    margin: 3px 0 3px 0;
+  }
+  .booking-form {
+    padding: 10px;
+  }
+  .booking-form-2 {
+    padding: 10px;
+  }
+  .col-md-6.col-pad {
+    margin: 5px 0 5px 0;
+  }
+  .col-md-6.col-pad-2 {
+    margin: -20px 0 5px 0;
+  }
+  .col-md-10.col-pad {
+    margin: 5px 0 5px 0;
+  }
+  .col-md-2.col-pad {
+    margin: 5px 0 5px 0;
+  }
+  .col-md-2.col-pad-2 {
+    margin: 25px 0 0 0;
+  }
+  div#seat-map.seatCharts-container {
+    border-right: 0px;
+  }
+  .default-row {
+    border-radius: 0px !important;
+  }
+  .row-login {
+    border-radius: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .booking-form {
+    padding: 10px;
+  }
+  .booking-form-2 {
+    padding: 10px;
+  }
+  .col-md-6.col-pad {
+    margin: 5px 0 5px 0;
+  }
+  .col-md-6.col-pad-2 {
+    margin: -20px 0 5px 0;
+  }
+  .col-md-10.col-pad {
+    margin: 5px 0 5px 0;
+  }
+  .col-md-2.col-pad {
+    margin: 5px 0 5px 0;
+  }
+  .col-md-2.col-pad-2 {
+    margin: 25px 0 0 0;
+  }
+}
+
+/*Form Booking*/
+
+.booking-form {
+  margin-top: 73px;
+  padding: 20px;
+  background-color: #B23850;
+  min-height: 20px;
+  border-radius: 5px;
+}
+
+.input-group-addon {
+  border: 0px;
+  background-color: #FFFFFF;
+}
+
+button.btn.btn-reverse {
+  border-radius: 0;
+}
+
+button.btn.btn-book {
+  min-width: 100%;
+  background-color: #3B8BEB;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* ROW-Carousel */
+
+.row-carousel {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.carousel {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.carousel .item {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.carousel-control {
+  border-radius: 10px;
+}
+
+/* Footer CSS */
+
+footer {
+  background-color: #161616;
+  min-height: 40px;
+  color: white;
+}
+
+footer .row {
+  padding-top: 16px;
+}
+
+/*=== 2. Login CSS ===*/
+
+.login {
+  margin-top: 150px;
+}
+.daftar {
+  margin-top: 50px;
+}
+
+.daftar .column {
+  border-top: 6px solid #B23850;
+}
+.login .column {
+  border-top: 6px solid #B23850;
+}
+
+.daftar p {
+  color: red;
+}
+
+.daftar img {
+  margin: 30px 0 30px 0;
+}
+.login p {
+  color: red;
+}
+
+.login img {
+  margin: 30px 0 30px 0;
+}
+
+/* Button Login */
+
+.btn-login {
+  color: #ffffff;
+  background-color: #B23850;
+  min-width: 100%;
+}
+
+.btn-login:hover {
+  color: #ffffff;
+  background-color: #c83e59;
+  border-radius: 5px;
+}
+
+.btn-search {
+  color: #ffffff;
+  background-color: #3e9bc8;
+  min-width: 100%;
+  border-radius: 0px;
+}
+
+.btn-search:hover, .btn-search:focus {
+  color: #ffffff;
+  background-color: #338cb6;
+}
+
+/*=== 3. Kereta HTML ===*/
+
+.ticket-information {
+  color: #ffffff;
+}
+
+p.kota {
+  font-size: 20px;
+  text-align: left;
+}
+
+p.rincian {
+  font-size: 15px;
+  text-align: left;
+}
+
+/* btn ubah */
+
+.btn-ubah {
+  color: #ffffff;
+  background-color: #c83e59;
+  min-width: 100%;
+}
+
+.btn-ubah:hover, .btn-ubah:focus {
+  color: #ffffff;
+  background-color: #c83e59;
+  border-radius: 5px;
+  border: 0px;
+}
+
+/* ticket result */
+
+.row-ticket {
+  background-color: #f6f6f6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+table {
+  background-color: #FFFFFF;
+  border: 0px;
+  border-radius: 10px 10px 0 0;
+}
+
+.table thead>tr>th {
+  background-color: #B23850;
+}
+
+th.awal {
+  border-radius: 10px 0 0 0;
+}
+
+th.akhir {
+  border-radius: 0 10px 0 0;
+}
+
+.table th {
+  text-align: center;
+  color: #ffffff;
+}
+
+/*=== 4. Seats HTML ===*/
+
+.column.col-md-6.judul {
+  background-color: #B23850;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+.booking-details {
+  float: left;
+  text-align: left;
+  margin-left: 35px;
+  font-size: 12px;
+  position: relative;
+  height: 401px;
+}
+
+.booking-details h2 {
+  margin: 25px 0 20px 0;
+  font-size: 17px;
+}
+
+.booking-details h3 {
+  margin: 5px 5px 0 0;
+  font-size: 14px;
+}
+
+div.seatCharts-cell {
+  color: #182C4E;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+}
+
+div.seatCharts-seat {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+div.seatCharts-row {
+  height: 35px;
+}
+
+div.seatCharts-seat.available {
+  background-color: #aae086;
+}
+
+div.seatCharts-seat.available.first-class {
+  background-color: #3a78c3;
+}
+
+div.seatCharts-seat.focused {
+  background-color: #76B474;
+}
+
+div.seatCharts-seat.selected {
+  background-color: #E6CAC4;
+}
+
+div.seatCharts-seat.unavailable {
+  background-color: #af0037;
+}
+
+div.seatCharts-container {
+  /*border-right: 1px solid #e4e4e4;*/
+  width: 720px;
+  padding: 20px;
+  /*float: left;*/
+  margin: 0 auto;
+}
+
+div.seatCharts-legend {
+  padding-left: 0px;
+  position: absolute;
+  bottom: 16px;
+}
+
+ul.seatCharts-legendList {
+  padding-left: 0px;
+}
+
+span.seatCharts-legendDescription {
+  margin-left: 5px;
+  line-height: 30px;
+}
+
+.checkout-button {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+#selected-seats {
+  max-height: 90px;
+  overflow-y: scroll;
+  overflow-x: none;
+  width: 170px;
+}
+
+.modal-dialog {
+  max-width: 350px;
+  margin-top: 100px;
+}
+
+.modal-header {
+  background-color: #B23850;
+  color: #ffffff;
+  text-align: center;
+}
+
+.modal-body {
+  background-color: #f6f6f6;
+}
+
+/* === 5. Index-Login HTML === */
+
+/* Sidebar */
+
+.sidebar {
+  background-color: #FFFFFF;
+  max-width: 229px;
+  margin-top: 50px;
+  min-height: 100%;
+}
+
+ul.nav>li.active {
+  background-color: #f6f6f6;
+  border-left: 2px solid;
+  border-color: #B23850;
+}
+
+ul.nav>li.active.submenu {
+  background-color: #e6e6e6;
+  border-left: 2px solid;
+  border-color: #B23850;
+  margin-top: 0px !important;
+  border-top: 0px;
+}
+
+ul.nav>li.submenu {
+  padding-left: 13px;
+  font-size: 12px;
+}
+
+ul.nav>li.active.top {
+  margin-top: 10px;
+}
+
+ul.nav>li>a {
+  padding-left: 30px;
+  color: #777;
+  font-weight: 700;
+  border-top: 1px solid;
+  border-color: #e9e9e9;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    visibility: hidden;
+  }
+  .con-login {
+    padding-left: 0px !important;
+  }
+  .m-user {
+    visibility: hidden;
+  }
+}
+
+.con-login {
+  padding-left: 250px;
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebar-menu {
+    visibility: hidden;
+  }
+}
+
+.con-login {
+  padding-left: 250px;
+}
+
+/* === 6. Pengaturan Akun HTML === */
+
+.row-login {
+  background-color: #B23850;
+  margin-top: 73px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.default-row {
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.akun {
+  background-color: #f6f6f6 !important;
+}
+
+/* === 6. Riwayat booking HTML === */
+
+.torange-1 {
+  height: 40px !important;
+  background-color: #e16738;
+  border-radius: 10px 10px 0 0;
+  padding: 0px;
+}
+
+.torange-2 {
+  height: 40px !important;
+  background-color: #e16738;
+  border-radius: 0 0 10px 10px;
+  padding: 0px;
+}
+
+.tkecil {
+  font-size: 12px;
+  font-weight: normal !important;
+}
+.tbarcode {
+  padding: 0px !important;
+}
+
+
+
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  text-align: left !important;
+  padding-left: 20px;
+  border: 0px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.table>tbody.font-normal>tr>td{
+  font-weight: normal;
+}
+
+.table>tbody>tr>td.tombol {
+  text-align: right !important;
+  padding-right: 20px;
+}
+
+.barcode {
+  position: absolute;
+  max-width: 250px;
+  margin-left: -180px;
+}
+
+/* Row And Column Center */
+.row-centered {
+  text-align: center;
+}
+
+/*Column Color + Centered  */
+
+.column {
+  margin: 10px;
+  display: inline-block;
+  float: none;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+/* Vertical Devider */
+
+.vertical-divider {
+  position: absolute;
+  left: 50%;
+  border-left: 1px solid rgba(34, 36, 38, .15);
+  border-right: 1px solid rgba(255, 255, 255, .1);
+  height: 15px;
+}
+
+/* label form */
+label.label-form {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #828282;
+}
